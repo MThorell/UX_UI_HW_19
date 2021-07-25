@@ -1,0 +1,479 @@
+.navigation {
+    /* border: 1px solid red; */
+    margin: auto 0;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+.inline-block {
+    /*border: 1px solid red;*/
+    margin: auto 0;
+    display: inline;
+
+}
+
+.logo {
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 150px;
+    height: auto;
+    padding: 6px;
+}
+.nav {
+    /* border: 1px solid red; */
+    margin: auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+.socialIcons {
+    position: relative;
+    /* border: 1px solid red; */
+    margin: auto 0;
+    display: inline-block;
+    
+
+}
+
+#LinkedInIcon {
+    padding: 15px;
+}
+#InstagramIcon {
+    padding: 15px;
+}
+#FacebookIcon {
+    padding: 15px;
+}
+nav li {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+li {
+    margin: 15px 35px;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: auto 0;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Hero Section */
+.heroBanner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+.picFrame {
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid blue; */
+    /* height: 600px; */
+    /* width: 66%; */
+}
+
+.profilePic {
+    /* border: 1px solid green; */
+    /* position:relative; */
+    /* left:0; */
+    /* object-position: 100% 0; */
+       overflow-x: hidden;
+        display: flex;
+        justify-content: left;
+        width: 66%;
+}
+.profilePic img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    overflow-x: hidden;
+
+}
+.nameBox {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: #F79C39;
+    color: white;
+    margin: 0px 0px 35px 0px;
+    z-index: 1;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+.jobTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    width: 30%;
+    color: #555555;
+    margin: auto 0;
+    z-index: 1;
+    height: 50px;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+}
+/* .whiteBox {
+    padding: 15px;
+    background-color: white;
+    color: white;
+    width: 1px;
+    /* margin: 0 auto; 
+} */
+.quoteFrame {
+    width: 33%;
+    background-color: #818181;
+    margin-left: 2%;
+    max-height: 600px;
+    overflow: hidden;
+  
+}
+.quoteBox {
+    /* border: 1px solid red; */
+    line-height: 50px ;
+    /* width: 100%; */
+    /* position: relative;
+    right:0;
+    display: flex;
+    text-align-last: left; */
+    /* justify-content: center; */
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #818181;
+    color: white;
+    /* margin: auto; */
+    padding: 20% 10% 20% 10%;
+    font-size: 32px;
+    overflow: hidden;
+}
+/* Work Section */
+
+.workTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #707070;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 15px 15px 15px;
+    background-image: url("../images/Path\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skills {
+    background-image: url("../images/Path\ 2.png");
+    background-position: 60%;
+}
+.workCards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;    
+    justify-content:space-around;
+    /* overflow: hidden; */
+}
+.workSlot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    border-radius: 1.5%;
+    border: 1px solid #818181;
+    max-width: 500px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.workCards img {
+ width: 100%;
+ height: auto;
+
+}
+
+/* Skills Section */
+.skillsWrapper {
+    background-color: #EEEEEE;
+}
+
+.skillsWrapper h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+    text-decoration: underline;
+
+}
+.skillsListsWrapper {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* .researchSkills {} */
+
+.skillsCol{
+    padding: 15px;
+}
+.skillsListsWrapper li {
+    padding: 0px;
+}
+.skillsCol img{
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+.skillsListsWrapper ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: auto 0;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: auto;
+}
+.skillsListsWrapper li {
+    margin: 5px;
+}
+/* End Skills Section */
+
+/* Interests Section */
+.interestCards {
+    /* width: 22%; */
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.interestCard1 img {
+    /* justify-content: space-around; */
+    padding-bottom: 15px;
+    width: 90%;
+    height: auto;
+}
+/* End Interests Secton */
+/* Footer Section */
+.footer {
+    padding: 15px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 100%;
+    background-color: #373738;
+}
+.footerNav ul{
+    display: block;
+    /* flex-direction: column; */
+    align-items: flex-end;
+}
+
+footer ul {
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer li {
+    margin: 0 auto;
+    color: white;
+    padding: 25px;
+
+}
+.footerSocialIcons {
+    position: relative;
+    padding-right: 25px;       
+}
+/* End Footer Section */
+
+/* Media Queries */
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    .nameBox {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        background-color: #F79C39;
+        color: white;
+        margin: 0px 0px 35px 0px;
+        z-index: 1;
+        padding: 20px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+    .jobTitle {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        width: 30%;
+        color: #555555;
+        margin: auto 0;
+        z-index: 1;
+        height: 50px;
+        padding: 20px;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+    }
+
+}
+  
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .nameBox {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        background-color: #F79C39;
+        color: white;
+        margin: 0px 0px 35px 0px;
+        z-index: 1;
+        padding: 20px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+    .jobTitle {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        width: 30%;
+        color: #555555;
+        margin: auto 0;
+        z-index: 1;
+        height: 50px;
+        padding: 20px;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+    }
+    .interestCards {
+        /* width: 22%; */
+        /* margin-left: auto; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .interestCard1 img {
+        /* justify-content: space-around; */
+        padding-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1200px){
+    .profilePic img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        overflow-x: hidden;
+    }
+    .nameBox {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        background-color: #F79C39;
+        color: white;
+        margin: 0px 0px 35px 0px;
+        z-index: 1;
+        padding: 20px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+    .jobTitle {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        width: 30%;
+        color: #555555;
+        margin: auto 0;
+        z-index: 1;
+        height: 50px;
+        padding: 20px;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+    }
+    .quoteFrame {
+        width: 33%;
+        background-color: #818181;
+        margin-left: 2%;
+        max-height: 400px;
+        overflow: hidden;
+      
+    }
+    .quoteBox {
+        /* border: 1px solid red; */
+        line-height: 35px ;
+        /* width: 100%; */
+        /* position: relative;
+        right:0;
+        display: flex;
+        text-align-last: left; */
+        /* justify-content: center; */
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #818181;
+        color: white;
+        /* margin: auto; */
+        padding: 20% 10% 20% 10%;
+        font-size: 24px;
+        overflow: hidden;
+    }
+    .interestCards {
+        /* width: 22%; */
+        margin-left: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .interestCard1 img {
+        /* justify-content: space-around; */
+        padding-bottom: 15px;
+        width: 90%;
+        height: auto;
+    }
+}
