@@ -147,17 +147,26 @@ nav li {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 42px;
     display: flex;
-    align-items: center;
+    text-align: center;
+    vertical-align: sub;
     justify-content: center;
     width: 30%;
     background-color: #F79C39;
     color: white;
-    margin: 0px 0px 35px 0px;
+    margin: auto;
     z-index: 1;
     padding: 20px;
     position: absolute;
     top: 40%;
     left: 0%;
+    baseline-shift: sub;
+}
+.quoteBtn {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    margin: auto;
+    color: #999999;
 }
 .jobTitle {
     font-family: 'Josefin Sans', sans-serif;
@@ -191,6 +200,23 @@ nav li {
   
 }
 .quoteBox {
+    /* border: 1px solid red; */
+    line-height: 50px ;
+    /* width: 100%; */
+    /* position: relative;
+    right:0;
+    display: flex;
+    text-align-last: left; */
+    /* justify-content: center; */
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #818181;
+    color: white;
+    /* margin: auto; */
+    padding: 20% 10% 20% 10%;
+    font-size: 32px;
+    overflow: hidden;
+}
+.quoteBox2 {
     /* border: 1px solid red; */
     line-height: 50px ;
     /* width: 100%; */
