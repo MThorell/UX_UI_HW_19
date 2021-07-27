@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .socialIcons {
     position: relative;
     /* border: 1px solid red; */
@@ -45,14 +46,16 @@
 #FacebookIcon {
     padding: 15px;
 }
-nav li {
+nav a {
     display: flex;
     justify-content: space-around;
     color: gray;
+
 }
-li {
+a {
     margin: 15px 35px;
     color: gray;
+    text-decoration: none;
 }
 
 ul {
@@ -64,6 +67,46 @@ ul {
     flex-direction: row;
     justify-content: space-around;
 }
+
+nav li {
+    background-color: lightgray;
+    padding: 20px 0;
+    margin: 0 6px;
+}
+
+   a {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        color:#999999;
+        padding: 6px;
+        transition: 0.8s;
+    }
+    a::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        top:100%;
+        left: 0;
+        background: #F79C39;
+        transition: transform 0.5s;
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    
+    a:hover{
+        color: #666666;
+    
+    }
+    a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    
+
+
+    
 
 /* Hero Section */
 .heroBanner {
@@ -239,6 +282,9 @@ ul {
 .skillsListsWrapper li {
     padding: 0px;
 }
+.skillsCol li {
+    color: gray;
+}
 .skillsCol img{
     margin: auto;
     text-align: center;
@@ -296,7 +342,7 @@ footer ul {
     text-align: left;
 }
 
-footer li {
+footer a {
     margin: 0 auto;
     color: white;
     padding: 25px;

@@ -2,7 +2,8 @@
 <html>
 <head>
   <link href="css/style1.css" type="text/css" rel="stylesheet">
-  <link href="js/index.js" type="js" rel="js">
+  <link href="JavaScript/index.js" type="js" rel="js">
+  <!-- <link href=”css/hoverline/style.css” rel=”stylesheet”/> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -19,9 +20,9 @@
 
       <div class="nav resume work contact">
         <ul>  
-          <li id="resume"> RESUME </li>
-          <li id="work"> WORK </li>
-          <li id="contact"> CONTACT </li>
+          <li><a href="#" id="resume"> RESUME </a></li>
+          <li><a href="#" id="work"> WORK </a></li>
+          <li><a href="#" id="contact"> CONTACT </a></li>
         </ul>
       </div>
       
@@ -30,7 +31,15 @@
         <img src="images/InstagramIcon.png" alt="InstagramIcon" id="InstagramIcon">
         <img src="images/FacebookIcon.png" alt="FacebookIcon" id="FacebookIcon">
       </div>
+      <!-- <div class="ex-inner"><div class="navbar" id="hoverline-demo">
+        <ul>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div> -->
     </header>
+    
     
 <!--Hero Image Section Below-->
     <section>
@@ -162,6 +171,7 @@
           <div class="interestCard1"> <img src="images/Basketball.png"></div>
           <div class="interestCard1"> <img src="images/Calvin-And-Hobbes.png"></div>
           <div class="interestCard1"> <img src="images/Cooking.png"></div>
+          </div>
       </section>
       <!--Interest Section Ends-->
 
@@ -170,9 +180,9 @@
         <div class="footer">
           <div class="footerNav">
             <ul>
-              <li> RESUME </li>
-              <li> WORK </li>
-              <li> CONTACT </li>
+              <a href="#" > RESUME </a>
+              <a href="#" > WORK </a>
+              <a href="#" > CONTACT </a>
             </ul>
           </div>
           <div class="footerSocialIcons">
@@ -183,10 +193,12 @@
           </div>
         </div>
       </Section>
-
-
-
-
-
     
 </body>
+
+<script src="JavaScript/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type=”text/javascript” src=”JavaScript/hoverline.js”></script>
+
+
+</html>
