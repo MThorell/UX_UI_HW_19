@@ -162,11 +162,16 @@ nav li {
     baseline-shift: sub;
 }
 .quoteBtn {
+    justify-content: center;
     display: flex;
     position: absolute;
     top: 80%;
     margin: auto;
     color: #999999;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    text-align: center;
+
 }
 .jobTitle {
     font-family: 'Josefin Sans', sans-serif;
@@ -212,7 +217,7 @@ nav li {
     background-color: #818181;
     color: white;
     /* margin: auto; */
-    padding: 20% 10% 20% 10%;
+    padding: 10% 10% 10% 10%;
     font-size: 32px;
     overflow: hidden;
 }
@@ -232,6 +237,21 @@ nav li {
     padding: 20% 10% 20% 10%;
     font-size: 32px;
     overflow: hidden;
+}
+
+button {
+    text-align: center;
+    background-color: #818181;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #999999;
+    border: none;
+    display: flex;
+    flex: row;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+
 }
 /* Work Section */
 
